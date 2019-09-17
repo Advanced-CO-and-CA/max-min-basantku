@@ -55,9 +55,9 @@ next:
 out:
   ldr r2, =data_min   ;store min value at data_min
   str r0, [r2]
-  ldr r2, =data_max   ;store min value at data_max
+  ldr r2, =data_max   ;store max value at data_max
   str r1, [r2]
-  ldr r2, =data_count   ;store min value at data_count
+  ldr r2, =data_count   ;store count value at data_count
   str r4, [r2]
 
 .end
